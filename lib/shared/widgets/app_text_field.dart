@@ -2,32 +2,8 @@ import 'package:cacha_test/theme/colors.dart';
 import 'package:cacha_test/theme/sizes.dart';
 import 'package:flutter/material.dart';
 
-
-/// A customizable text field widget that follows the app's design system.
-/// This widget provides consistent styling and validation across the application
-/// with support for different input types, validation, and styling options.
 class AppTextField extends StatelessWidget {
-  /// Creates an [AppTextField] with the specified parameters.
-  /// 
-  /// [controller] - Text editing controller for managing input
-  /// [label] - Optional label text above the field (supports i18n)
-  /// [subLabel] - Optional sub-label text next to the main label
-  /// [backgroundColor] - Background color of the text field
-  /// [hintText] - Placeholder text inside the field (supports i18n)
-  /// [hintStyle] - Custom style for hint text
-  /// [keyboardType] - Type of keyboard to show (text, number, email, etc.)
-  /// [obscureText] - Whether to hide the input text (for passwords)
-  /// [suffixIcon] - Optional icon to display at the end of the field
-  /// [textAlign] - Alignment of the input text
-  /// [textStyle] - Custom style for the input text
-  /// [borderBottomOnly] - Whether to show only bottom border (underline style)
-  /// [borderColor] - Custom border color
-  /// [readOnly] - Whether the field is read-only
-  /// [onTap] - Callback when the field is tapped
-  /// [validator] - Custom validation function
-  /// [errorText] - Custom error message for validation
-  /// [autovalidateMode] - When to trigger validation
-  /// [isRequired] - Whether the field is required (affects validation)
+
   const AppTextField({
     required this.controller,
     this.autovalidateMode,

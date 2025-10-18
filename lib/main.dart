@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'features/auth/controllers/auth_controller.dart';
-import 'features/auth/auth_screens.dart';
+import 'features/auth/views/loginView.dart';
 import 'features/shell/app_shell.dart';
 import 'theme/app_theme_light.dart';
 import 'theme/app_theme_dark.dart';
@@ -39,4 +39,4 @@ class MyApp extends ConsumerWidget {
   }
 }
 
-// Removed default counter page in favor of AppShell
+

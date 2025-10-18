@@ -1,4 +1,4 @@
-import 'package:cacha_test/features/auth/screens/register_screen.dart';
+import 'package:cacha_test/features/auth/views/registerView.dart';
 import 'package:cacha_test/shared/widgets/app_button.dart';
 import 'package:cacha_test/shared/widgets/app_text_field.dart';
 import 'package:cacha_test/shared/widgets/logo_container.dart';
@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'controllers/auth_controller.dart';
+import '../controllers/auth_controller.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
   const LoginScreen({super.key});

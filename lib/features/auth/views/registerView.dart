@@ -1,4 +1,4 @@
-import 'package:cacha_test/features/auth/auth_screens.dart';
+import 'package:cacha_test/features/auth/views/loginView.dart';
 import 'package:cacha_test/shared/widgets/app_button.dart';
 import 'package:cacha_test/shared/widgets/app_text_field.dart';
 import 'package:cacha_test/shared/widgets/logo_container.dart';
